@@ -1,30 +1,22 @@
+@font-face {
+    font-family: Oswald;
+    src: url(font/Oswald-VariableFont_wght.ttf);
+  }
+
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-family: Oswald;
 }
 
 body {
     background-color: #222525;
-    text-align: center;
-}
-
-.grid {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: stretch;
-
-}
-
-.block {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5vh;
 }
 
 h1 {
     color: #77f;
-    font-size: 7vh;
+    font-size: 10vh;
     padding-top: 3vh;
 }
 
@@ -35,17 +27,18 @@ h3 {
 
 a {
     color: #fff;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 a:hover {
-    color:#77f
+    color:#77f;
+    box-shadow: inset 0 0 1vh #77f;
 }
 
 p {
     padding-top: 2vh;
     padding-bottom: 2vh;
-    color: ff5;
+    color: #ff5;
 }
 
 i {
@@ -55,12 +48,16 @@ i {
     margin-left: 1vh;
 }
 
-@media screen and (min-width: 600px) {
-    .grid {
-        max-height: 80vh;
-    }
-
-    h1 {
-        font-size: 10vh;
-    }
+.center {
+    justify-content: center;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
