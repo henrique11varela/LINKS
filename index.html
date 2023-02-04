@@ -1,67 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="container d-flex flex-column justify-content-start align-items-center">
         <h1>USEFUL LINKS</h1>
-        <p>A list of usefull links</p>
-        <div class="row w-100 text-center">
+        <div id="bg">
+            <p>A list of usefull links</p>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionPrimary">
+
             <!-- Tools -->
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
-                <h2>Tools</h2>
-                <a href="https://www.photopea.com/">Photopea</a>
-                <a href="https://www.onlinecorrection.com/">Pt/En Corrector</a>
-                <a href="https://www.canva.com/">Canva</a>
-                <a href="https://app.diagrams.net/">Draw.io</a>
-                <a href="https://codepen.io/">Codepen</a>
-                <a href="https://wokwi.com/">Arduino Simulator</a>
-                <a href="https://regexr.com/">Regexr</a>
+            <div class="accordion-item col-12 col-md-3">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Tools
+                    </button>
+                </h2>
             </div>
-            <!-- Resources -->
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
-                <h2>Resources</h2>
-                <a href="https://fontawesome.com/">Font Awesome</a>
-                <a href="https://shields.io/">shields.io</a>
-                <a href="https://animate.style/">Animate.css</a>
-                <a href="https://www.transition.style/">Transition.css</a>
-                <a href="https://animista.net/">animista</a>
-                <a href="https://getwaves.io/">Wave maker</a>
-                <a href="https://picsum.photos/">Lorem Picsum</a>
-                <a href="https://colorhunt.co/">ColorHunt</a>
-                <a href="https://lospec.com/palette-list">Palette list</a>
-            </div>
-            <!--CSS  -->
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
-                <h2>Css</h2>
-                <a href="https://cdnjs.com/">cdnjs</a>
-                <a href="https://getbootstrap.com/">Bootstrap</a>
-                <a href="https://keyframes.app/">Keyframes css</a>
-                <a href="https://css-transform.moro.es/">Css Transform</a>
-                <a href="https://shadows.brumm.af/">Css Shadows</a>
-                <a href="https://bennettfeely.com/clippy/">Clipping path</a>
-                <a href="https://cubic-bezier.com/#.17,.67,.83,.67">Cubic Bezier</a>
-            </div>
-            <!--  -->
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
 
+            <!-- Webdev  -->
+            <div class="accordion-item col-12 col-md-3">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Webdev
+                    </button>
+                </h2>
             </div>
-            <!--  -->
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
 
+            <!-- Learn -->
+            <div class="accordion-item col-12 col-md-3">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Learn
+                    </button>
+                </h2>
             </div>
-            <!--  -->
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
 
+            <!-- Games -->
+            <div class="accordion-item col-12 col-md-3">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Games
+                    </button>
+                </h2>
+            </div>
+
+            <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+            <div class="screen row w-100">
+                <!-- Tools -->
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionPrimary">
+                    <div class="accordion-body row">
+                        <div class="col d-flex flex-column align-items-center text-center">
+                            <h2>Tools</h2>
+                            <a target="_blank" href="https://www.photopea.com/">Photopea</a>
+                            <a target="_blank" href="https://www.onlinecorrection.com/">Pt/En Corrector</a>
+                            <a target="_blank" href="https://www.prepostseo.com/">Prepostseo</a>
+                            <a target="_blank" href="https://www.canva.com/">Canva</a>
+                            <a target="_blank" href="https://app.diagrams.net/">Draw.io</a>
+                            <a target="_blank" href="https://codepen.io/">Codepen</a>
+                            <a target="_blank" href="https://wokwi.com/">Arduino Simulator</a>
+                            <a target="_blank" href="https://regexr.com/">Regexr</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Webdev -->
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionPrimary">
+                    <div class="accordion-body row">
+                        <div class="col-12 col-md-6 d-flex flex-column align-items-center text-center">
+                            <h2>Resources</h2>
+                            <a target="_blank" href="https://fontawesome.com/">Font Awesome</a>
+                            <a target="_blank" href="https://shields.io/">shields.io</a>
+                            <a target="_blank" href="https://animate.style/">Animate.css</a>
+                            <a target="_blank" href="https://www.transition.style/">Transition.css</a>
+                            <a target="_blank" href="https://animista.net/">animista</a>
+                            <a target="_blank" href="https://getwaves.io/">Wave maker</a>
+                            <a target="_blank" href="https://picsum.photos/">Lorem Picsum</a>
+                            <a target="_blank" href="https://colorhunt.co/">ColorHunt</a>
+                            <a target="_blank" href="https://lospec.com/palette-list">Palette list</a>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column align-items-center text-center">
+                            <h2>Tools</h2>
+                            <a target="_blank" href="https://cdnjs.com/">cdnjs</a>
+                            <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a>
+                            <a target="_blank" href="https://keyframes.app/">Keyframes css</a>
+                            <a target="_blank" href="https://css-transform.moro.es/">Css Transform</a>
+                            <a target="_blank" href="https://shadows.brumm.af/">Css Shadows</a>
+                            <a target="_blank" href="https://bennettfeely.com/clippy/">Clipping path</a>
+                            <a target="_blank" href="https://cubic-bezier.com/#.17,.67,.83,.67">Cubic Bezier</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Learn -->
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionPrimary">
+                    <div class="accordion-body">
+                        <div class="col-12 d-flex flex-column align-items-center text-center">
+                            <h2>Learn</h2>
+                            <a target="_blank" href="https://www.sololearn.com/">Sololearn</a>
+                            <a target="_blank" href="https://www.freecodecamp.org/">Freecodecamp</a>
+                            <a target="_blank" href="https://exercism.org/">Exercism</a>
+                            <a target="_blank" href="https://refactoring.guru/refactoring/catalog">Refactoring</a>
+                            <a target="_blank" href="https://tryhackme.com/">TryHackMe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Games -->
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionPrimary">
+                    <div class="accordion-body">
+                        <div class="col-12 d-flex flex-column align-items-center text-center">
+                            <h2>Games</h2>
+                            <a target="_blank" href="https://itch.io/">itch.io</a>
+                            <a target="_blank" href="https://en.boardgamearena.com/welcome">Boardgames</a>
+                            <a target="_blank" href="https://github.com/open-duelyst/duelyst">Duelyst</a>
+                            <a target="_blank" href="https://untap.in/">Untap.io</a>
+                            <a target="_blank" href="https://duelingnexus.com/login">Dueling Nexus</a>
+                            <a target="_blank" href="https://spendee.mattle.online/">Spendee</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
