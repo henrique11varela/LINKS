@@ -1,0 +1,200 @@
+{
+    "apps": [
+        {
+            "img": "./images/Excalidraw.png",
+            "text": "Excalidraw",
+            "url": "https://excalidraw.com/"
+        },
+        {
+            "img": "./images/Photopea.png",
+            "text": "Photopea",
+            "url": "https://www.photopea.com/"
+        },
+        {
+            "img": "./images/VSCode.png",
+            "text": "VS Code",
+            "url": "https://vscode.dev/"
+        },
+        {
+            "img": "./images/onlinecorrector.png",
+            "text": "Corrector",
+            "url": "https://www.onlinecorrection.com/"
+        },
+        {
+            "img": "./images/canva.png",
+            "text": "Canva",
+            "url": "https://www.canva.com/"
+        },
+        {
+            "img": "./images/Drawio.png",
+            "text": "Drawio",
+            "url": "https://app.diagrams.net/"
+        },
+        {
+            "img": "./images/codepen.png",
+            "text": "Codepen",
+            "url": "https://codepen.io/"
+        },
+        {
+            "img": "./images/wokwi.png",
+            "text": "Arduino",
+            "url": "https://wokwi.com/"
+        },
+        {
+            "img": "./images/prepostseo.png",
+            "text": "PrepostSeo",
+            "url": "https://www.prepostseo.com/"
+        },
+        {
+            "img": "./images/RegExr.png",
+            "text": "RegExr",
+            "url": "https://regexr.com/"
+        }
+    ],
+    "other": [
+        {
+            "title": "Resources",
+            "links": [
+                {
+                    "text": "Shields.io",
+                    "url": "https://shields.io"
+                },
+                {
+                    "text": "Lorem Picsum",
+                    "url": "https://picsum.photos/"
+                },
+                {
+                    "text": "SvgRepo",
+                    "url": "https://www.svgrepo.com"
+                },
+                {
+                    "text": "Font Awesome",
+                    "url": "https://fontawesome.com/"
+                },
+                {
+                    "text": "Animate.css",
+                    "url": "https://animate.style/"
+                },
+                {
+                    "text": "Transition.css",
+                    "url": "https://www.transition.style/"
+                },
+                {
+                    "text": "Animista",
+                    "url": "https://animista.net/"
+                },
+                {
+                    "text": "Svg Waves",
+                    "url": "https://getwaves.io/"
+                },
+                {
+                    "text": "Svg Backgrounds",
+                    "url": "https://bgjar.com/"
+                },
+                {
+                    "text": "Animated Backgrounds",
+                    "url": "https://animatedbackgrounds.me/"
+                },
+                {
+                    "text": "Color Hunt",
+                    "url": "https://colorhunt.co/"
+                }
+            ]
+        },
+        {
+            "title": "Tools",
+            "links": [
+                {
+                    "text": "CDNjs",
+                    "url": "https://cdnjs.com/"
+                },
+                {
+                    "text": "Charts.css",
+                    "url": "https://chartscss.org/"
+                },
+                {
+                    "text": "Css Transform",
+                    "url": "https://css-transform.moro.es/"
+                },
+                {
+                    "text": "Shadows css",
+                    "url": "https://shadows.brumm.af/"
+                },
+                {
+                    "text": "Clip path css",
+                    "url": "https://bennettfeely.com/clippy/"
+                },
+                {
+                    "text": "Cubic bezier",
+                    "url": "https://cubic-bezier.com/#.17,.67,.83,.67"
+                },
+                {
+                    "text": "Grid maker",
+                    "url": "https://grid.layoutit.com/"
+                },
+                {
+                    "text": "Contrast checker",
+                    "url": "https://coolors.co/contrast-checker/112a46-acc8e5"
+                }
+            ]
+        },
+        {
+            "title": "Learn",
+            "links": [
+                {
+                    "text": "Server-World",
+                    "url": "https://www.server-world.info/en/"
+                },
+                {
+                    "text": "Learn Git Branching",
+                    "url": "https://learngitbranching.js.org/"
+                },
+                {
+                    "text": "TryHackMe",
+                    "url": "https://tryhackme.com/"
+                },
+                {
+                    "text": "Refactoring Guru",
+                    "url": "https://refactoring.guru/refactoring/catalog"
+                },
+                {
+                    "text": "FreeCodeCamp",
+                    "url": "https://www.freecodecamp.org/"
+                },
+                {
+                    "text": "SoloLearn",
+                    "url": "https://www.sololearn.com/profile/25562373"
+                },
+                {
+                    "text": "Exercism",
+                    "url": "https://exercism.org/"
+                }
+            ]
+        },
+        {
+            "title": "Games",
+            "links": [
+                {
+                    "text": "test",
+                    "url": "https://github.com/henrique11varela"
+                },
+                {
+                    "text": "Itch.io",
+                    "url": "https://itch.io/"
+                },
+                {
+                    "text": "Boardgame Arena",
+                    "url": "https://en.boardgamearena.com/welcome"
+                },
+                {
+                    "text": "Untap.in",
+                    "url": "https://untap.in/"
+                },
+                {
+                    "text": "Spendee",
+                    "url": "https://spendee.mattle.online/welcome"
+                }
+            ]
+        }
+    ]
+}
