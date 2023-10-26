@@ -176,6 +176,10 @@
                 {
                     "text": "Exercism",
                     "url": "https://exercism.org/"
+                },
+                {
+                    "text": "CSSBattle",
+                    "url": "https://cssbattle.dev/"
                 }
             ]
         },
