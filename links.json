@@ -207,6 +207,39 @@
                     "url": "https://spendee.mattle.online/welcome"
                 }
             ]
+        },
+        {
+            "title": "To Show",
+            "links": [
+                {
+                    "text": "PNG_to_Bitmap",
+                    "url": "https://github.com/henrique11varela/PNG_to_Bitmap"
+                },
+                {
+                    "text": "TicTacToe",
+                    "url": "https://henrique11varela.github.io/UnbeatableTicTacToeJS/miniMax/miniMax.html"
+                },
+                {
+                    "text": "Conways_Game_of_Life",
+                    "url": "https://henrique11varela.github.io/Conways_Game_of_Life/"
+                },
+                {
+                    "text": "Pixel particles",
+                    "url": "https://henrique11varela.github.io/Canvas/"
+                },
+                {
+                    "text": "Labyrinth_Solver_Online",
+                    "url": "https://henrique11varela.github.io/Labyrinth_Solver_Online/"
+                },
+                {
+                    "text": "Marialface",
+                    "url": "https://henrique11varela.github.io/Marialface/index.html"
+                },
+                {
+                    "text": "Balls",
+                    "url": "https://editor.p5js.org/henrique11varela/sketches/HoJUcA-iM"
+                }
+            ]
         }
     ]
 }
