@@ -151,6 +151,18 @@
                 {
                     "text": "SVGator",
                     "url": "https://app.svgator.com/"
+                },
+                {
+                    "text": "glyphrstudio",
+                    "url": "https://www.glyphrstudio.com/app/"
+                },
+                {
+                    "text": "SystemRescueCd",
+                    "url": "https://www.system-rescue.org/"
+                },
+                {
+                    "text": "Huggingface",
+                    "url": "https://huggingface.co/docs/transformers.js/en/tutorials/vanilla-js"
                 }
             ]
         },
@@ -188,6 +200,10 @@
                 {
                     "text": "CSSBattle",
                     "url": "https://cssbattle.dev/"
+                },
+                {
+                    "text": "Guide to paths",
+                    "url": "https://www.joshwcomeau.com/svg/interactive-guide-to-paths/"
                 }
             ]
         },
