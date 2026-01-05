@@ -6,5 +6,6 @@ if [ ! -f ~/cloudflared_installed ]; then
 	sudo apt update && sudo apt install cloudflared
 	touch ~/cloudflared_installed
 fi
-echo "to connect use localhost:9210"
-cloudflared access tcp --hostname minecraft2.henriquevarela.app --url 127.0.0.1:9210
+echo ""
+echo "To connect use localhost:9210"
+cloudflared access tcp --hostname minecraft2.henriquevarela.app --url 127.0.0.1:9210 > /dev/null
